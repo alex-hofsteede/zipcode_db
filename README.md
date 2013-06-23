@@ -12,7 +12,6 @@ To look up a city and state for a zipcode, it can be queried like so:
 
 Zipcodes are stored as integers, so leading zeroes are not returned (e.g. `2238|Cambridge|MA`)
 
-The data was seeded using the csv file from http://www.unitedstateszipcodes.org/zip-code-database and comes with 2 scripts:
-
-`populate_zips.py` Creates the zipcodes.sqlite database from the CSV file
+The data was seeded using the csv file from http://www.unitedstateszipcodes.org/zip-code-database and comes with 2 scripts:  
+`populate_zips.py` Creates the zipcodes.sqlite database from the CSV file.  
 `check_zips.py` Checks the codes in the database against the USPS zipcode API
